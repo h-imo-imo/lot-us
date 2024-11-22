@@ -8,7 +8,7 @@ from io import StringIO
 
 
 # スプレッドシートIDを指定
-SPREADSHEET_ID = '1f7sbENV3Szl5MFWEK1D-IZyQWGfPHYOHYtg7KW-ettQ'
+SPREADSHEET_ID = st.secrets["SPREADSHEET_ID"]
 SHEET_NAME = 'シート1'
 
 colors = [
